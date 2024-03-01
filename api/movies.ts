@@ -39,3 +39,4 @@ export const fetchMovie = async (id: number) => {
   const json = await res.json();
   return json;
 };
+
